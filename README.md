@@ -10,6 +10,8 @@ Windows 10 / 11 **x64（64 位）** · 安装包 **108.6 MiB**。普通使用只
 
 ## 电视、盒子、投影与平板
 
+[查看电视版实机图文、安装步骤与常见问题](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/blob/main/TV.md)
+
 **[下载 Android TV 测试版 0.4.1](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/tv-v0.4.1)** · APK **4.03 MB** · **Android 5.0+ / ARM64 系统**。32 位 Android 不适用；实际旧电视兼容性待测试。
 
 由渠道有数独立维护，独立播放无需电脑。支持暗色界面、遥控导航、搜索收藏、续播和快速“换一部”；充分观看优先同题材，第一集主动换剧尝试其他题材，并优先近期候选。设置可关闭或重置本机偏好。电脑与电视分别安装，历史暂不互通。
