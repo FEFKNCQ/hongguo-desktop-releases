@@ -1,4 +1,4 @@
-# 红果短剧电脑版｜红果桌面版
+# 红果短剧｜Windows 桌面版与 Android TV 版
 
 在 Windows 电脑上找剧、接着上次看。支持搜索、收藏、本机观看进度、选集、倍速和自动连播。
 
@@ -7,6 +7,16 @@
 **[下载 Windows 安装程序](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/v1.0.12/hongguo-1.0.12-windows-x86_64-setup.exe)**　｜　[三步安装](#三步开始使用)　｜　[下载与安装说明](#下载与安装说明)　｜　[全部版本](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases)
 
 Windows 10 / 11 **x64（64 位）** · 安装包 **108.6 MiB**。普通使用只需下载 `.exe`，不需要下载源码 ZIP、`.sig` 或 `latest.json`。
+
+## 电视、盒子、投影与平板
+
+**[下载 Android TV 测试版 0.4.1](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/tv-v0.4.1)** · APK **4.03 MB** · **Android 5.0+ / ARM64 系统**。32 位 Android 不适用；实际旧电视兼容性待测试。
+
+由渠道有数独立维护，独立播放无需电脑。支持暗色界面、遥控导航、搜索收藏、续播和快速“换一部”；充分观看优先同题材，第一集主动换剧尝试其他题材，并优先近期候选。设置可关闭或重置本机偏好。电脑与电视分别安装，历史暂不互通。
+
+应用内“设置 → 关于与帮助”提供原版入口、反馈和安装签名核验。APK 摘要及证书摘要随电视版发行说明公布，欢迎转载介绍并保留署名与原链接。小米 Android 13 平板已验收；真实电视、旧固件及实体遥控仍待测试。
+
+电视版问题请在 [Issues](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues) 标明“电视版”，附设备型号、Android 版本和现象。以下安装与升级说明适用于 Windows 桌面版。
 
 ## 软件界面
 
@@ -84,7 +94,7 @@ d09e6f521985cc6ec349049affe7abea42b11f74ee224122e4d91c905a4bdbc2
 
 ## 关于本仓库
 
-这是**公开发行与反馈仓库**，不包含私有应用源码或签名私钥，不代表应用源码已开源。每个版本保留安装器、更新签名、`latest.json`、摘要文件及本版本所需第三方对应源码附件；第三方许可、来源和声明也保留在安装目录 `backend/licenses`。
+这是**公开发行与反馈仓库**，不包含私有应用源码或签名私钥，不代表应用源码已开源。Windows 版本保留安装器、更新签名、`latest.json`、摘要文件及本版本所需第三方对应源码附件；第三方许可、来源和声明也保留在安装目录 `backend/licenses`。
 
 由渠道有数独立维护。相关品牌与内容归各自权利方所有，内容和播放可用性受来源及网络情况影响。
 
