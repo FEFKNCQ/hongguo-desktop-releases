@@ -1,0 +1,161 @@
+{
+  "name": "电视版安装与体验反馈",
+  "description": "Android 电视、盒子、投影或平板的安装、遥控和播放情况，也欢迎反馈可正常使用的型号。",
+  "title": "[电视版] ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "感谢测试渠道有数维护的红果电视端。当前 0.4.1 要求 Android 5.0+、ARM64 系统；64 位 CPU 不一定配有 64 位系统，暂不支持 ARM32。真实电视与旧固件仍待验证。请只填写实际测试结果，截图遮住个人信息，不要提交密码、令牌或私人观看记录。"
+      }
+    },
+    {
+      "type": "input",
+      "id": "device",
+      "attributes": {
+        "label": "品牌与完整型号",
+        "placeholder": "例如：小米 M2105K81AC；请填写系统设置中显示的型号"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "android",
+      "attributes": {
+        "label": "Android 版本",
+        "placeholder": "例如 Android 9；找不到请填“不确定”"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "version",
+      "attributes": {
+        "label": "应用版本",
+        "placeholder": "例如 0.4.1；无法安装时填写 APK 文件名"
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "abi",
+      "attributes": {
+        "label": "系统架构（不确定可跳过）",
+        "options": [
+          "ARM64 / arm64-v8a",
+          "32 位 Android / armeabi-v7a",
+          "不确定"
+        ]
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "installation",
+      "attributes": {
+        "label": "安装与启动",
+        "options": [
+          "已安装且能打开",
+          "安装失败",
+          "已安装但打不开或闪退",
+          "尚未安装"
+        ]
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "remote",
+      "attributes": {
+        "label": "遥控方向键、确认与返回",
+        "options": [
+          "已使用实体遥控器，正常",
+          "已使用实体遥控器，有问题",
+          "只测试过触屏或模拟按键",
+          "未测试"
+        ]
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "playback",
+      "attributes": {
+        "label": "首播与音画",
+        "options": [
+          "已播放，画面声音与同步正常",
+          "能播放，但有卡顿或音画问题",
+          "点击播放后无画面或报错",
+          "未测试"
+        ]
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "resume",
+      "attributes": {
+        "label": "退出后重新打开续播",
+        "options": [
+          "已测试，正常",
+          "已测试，有问题",
+          "未测试"
+        ]
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "recommend",
+      "attributes": {
+        "label": "换一部",
+        "options": [
+          "已测试，能切到另一部",
+          "已测试，无法切换或有异常",
+          "未测试"
+        ]
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "details",
+      "attributes": {
+        "label": "具体情况或建议",
+        "description": "有问题请写步骤、提示原文、是否稳定出现；没有问题可简述测试过程。题材是否合意可以补充，但无需公开个人观看历史。"
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "input",
+      "id": "source",
+      "attributes": {
+        "label": "在哪里看到电视版（选填）",
+        "placeholder": "例如 GitHub、朋友分享、小众软件、异次元或果核"
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}
