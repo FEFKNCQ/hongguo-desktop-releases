@@ -1,110 +1,110 @@
-# 红果短剧｜Windows 桌面版与 Android TV 版
-
-在 Windows 电脑上找剧、接着上次看。支持搜索、收藏、本机观看进度、选集、倍速和自动连播。
-
-**由渠道有数独立维护 · 免费使用 · 当前公开版本 1.0.13**
-
-**[下载 Windows 安装程序](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/v1.0.13/hongguo-1.0.13-windows-x86_64-setup.exe)**　｜　[三步安装](#三步开始使用)　｜　[下载与安装说明](#下载与安装说明)　｜　[全部版本](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases)
-
-Windows 10 / 11 **x64（64 位）** · 安装包 **108.6 MiB**。普通使用只需下载 `.exe`，不需要下载源码 ZIP、`.sig` 或 `latest.json`。
-
-## 电视、盒子、投影与平板
-
-**0.5.2 新增：顶部题材与 AI 剧、遥控长按临时倍速、在线更新提醒。** 旧版需手动覆盖安装一次，之后可提醒后续 TV 新版；播放时暂缓提醒。
-
-[查看电视版实机图文、安装步骤与常见问题](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/blob/main/TV.md)
-
-**[下载 Android TV 测试版 0.5.2](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/tv-v0.5.2)** · APK **4.08 MB** · **Android 5.0+ / ARM64 系统**。32 位 Android 不适用；实际旧电视兼容性待测试。
-
-由渠道有数独立维护，独立播放无需电脑。支持暗色界面、遥控导航、搜索收藏、续播和快速“换一部”；充分观看优先同题材，第一集主动换剧尝试其他题材，并优先近期候选。设置可关闭或重置本机偏好。电脑与电视分别安装，历史暂不互通。
-
-应用内“设置 → 关于与帮助”提供原版入口、反馈和安装签名核验。APK 摘要及证书摘要随电视版发行说明公布，欢迎转载介绍并保留署名与原链接。小米 Android 13 平板已验收；真实电视、旧固件及实体遥控仍待测试。
-
-**[直接下载电视版 APK](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.2/HongguoTV-0.5.2-arm64.apk)**　｜　[电视安装说明](https://channel-ai-practice-wj.waligoraamodio288.chatgpt.site/help/install/#android-tv)　｜　[反馈电视版使用情况](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=android-tv.yml)
-
-反馈表可填写安装成功或失败、设备型号、系统版本和遥控/播放情况；不确定的项目可以选择“未测试”。以下安装与升级说明适用于 Windows 桌面版。
-
-## 软件界面
-
-![红果桌面版 1.0.2 的发现页，含分类、排行榜、收藏和历史入口](assets/home-v1.0.2.png)
-
-*1.0.2 正式安装包在隔离 Windows 环境中实拍的首页；图中剧目封面来自内容服务，具体内容和播放可用性以实际环境为准。*
-
-第三方收录：[不死鸟 2026 年 9 月 23 日每日分享](https://iui.su/213/)。该条目现链接到本项目的发行列表，可在列表中查看当前正式版。
-
-## 三步开始使用
-
-收藏或分享[固定最新版入口](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/latest)，可减少旧文章停留在过期版本的问题。旧版用户可查看[升级与安装帮助](https://channel-ai-practice-wj.waligoraamodio288.chatgpt.site/help/install/#upgrade)；已是同版且正常使用，无需重复下载。
-
-1. 通过上方链接下载 `hongguo-1.0.13-windows-x86_64-setup.exe`。
-2. 按安装程序完成安装。已有可用 WebView2 时会复用，缺失时安装程序需联网补齐。如果进度条接近终点但仍显示执行 `guoban-webview2-setup.exe`，安装程序正在等待运行环境补装结束，请先不要关闭窗口或重复运行安装包。若在线补装失败、启动提示缺少 WebView2，或已知网络不稳定，可到[微软官方 WebView2 Runtime 下载页](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)选择 **Evergreen Standalone Installer（x64）** 安装，再重试红果安装或启动。若安装进度长时间没有变化，请记录界面和发生时间后反馈。
-3. 打开应用，浏览分类或搜索剧名，进入详情后播放。观看进度保存在桌面端，不代表同步手机红果 App 账号和历史。
-
-如果详情页提示“桌面内容服务尚未就绪”，播放按钮此时不可点击。先等待约 1 分钟，再到“设置”→“播放服务”点“检查连接”；这个按钮只重新检测本机服务状态，不会重启服务。仍显示“未连接”时，在“设置”点“退出程序”，重新打开应用，等待约 1 分钟后再检查一次。点窗口右上角的 × 不会完整退出程序。若仍未连接，请在[播放问题 #5](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/5)补充 Windows 和应用版本、两次检查结果及提示原文；若曾对比不同网络，请注明是否同一台电脑。若已进入播放器却没有画面，再说明加载、黑屏或报错情况。没有 GitHub 账号可发邮件至[项目邮箱](mailto:WaligoraAmodio288@gmail.com)。无需提供账号、IP 或完整日志。目前原因尚未确认。
-
-老板键默认 Ctrl+Shift+B，可在设置里调整。隐藏窗口时自动暂停播放，恢复后从原位置继续并保留倍速；原本手动暂停的视频仍保持暂停。
-
-## 怎么找到其他季
-
-播放时，在右侧选集区点“查找其他季”，滚动列表并核对完整标题、季数和版本，再点“选择此季”。不带季数后缀的同名条目可能是起始部分，仍需核对内容。等待切换时可点“收起其他季”取消；原视频暂停后可手动继续。
-
-1.0.11 及以前没有此手动入口，可回到片单搜索完整主体剧名。例如“聚宝仙盆之杂灵根才是真BOSS”，不要漏掉“仙”字。候选来自标题匹配，可能不完整，也不保证每个条目始终可播放。
-
-## 播放中断时
-
-若播放器提示“播放中断，请重试当前集”，先点“重试”一次，再换另一部剧对照；随后到“设置”→“播放服务”点“检查连接”。[提交播放问题](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=bug-report.yml)时请写明是否已安装并打开应用、点击播放后立即还是播了一段时间才中断、连接状态，以及重试和换剧的结果。无需提供账号、令牌或完整日志。这个提示可能对应多种失败，目前不能仅凭提示判断原因。
-
-## 当前已知反馈
-
-1.0.13 修复视频加载失败，新增「设置 → 外观 → 黑暗模式」，切换立即生效并在重新打开后保留。更新安装后自动刷新红果桌面快捷方式，将旧版本入口迁移到当前安装版本。设置页移除后台运行提示条，仍可从托盘退出。
-
-
-1.0.12 新增播放器“查找其他季”：打开候选列表、核对完整标题后手动选择，从该条目第 1 集开始；查找时保留播放，切换失败保留原媒体与已保存进度。更新下载显示已传输量和独立校验阶段；手动诊断摘要增加当前窗口的有限播放失败类别及数字状态码。选季是标题匹配，结果可能不完整；下载提示变化不代表提速。
-
-1.0.11 改善暂停后的下一集准备、小窗更新提示与首页空片单/请求失败说明；设置增加使用帮助入口和手动生成/预览/复制本次运行诊断摘要。摘要不读旧日志或观看记录、不自动发送；可先查看再自行决定是否附到反馈中。服务未连接、播放中断等问题仍需按具体环境排查。
-
-1.0.10 增加老板键隐藏暂停/恢复续播和3倍速；改善搜索与更新失败提示。更新下载在服务器支持且文件标识/范围核验通过时，尝试继续本次下载；关闭软件后不保留本次下载进度，不保证所有网络提速。安装包补齐作者署名和原发行入口，仍未配置 Windows 发布者代码签名。
-
-1.0.9 增加选集分组与指定集数定位，服务检查进行中显示“正在检查”，改进整集进度、本机续看、缓冲与缓存回收；连播保留控制条闲置状态。剧集列表失败显示分类和HTTP状态码；内置签名服务使用系统分配的本机回环端口并核对所属进程，减少固定端口占用造成的启动失败；签名子进程退出时所属服务停止，再次检查连接可看到退出提示。本机诊断有大小上限且不自动上传。长片中断、服务未连接和特定环境的退出反馈仍在排查，不保证本次全部解决。旧版缓存可能在卸载后保留，请勿自行删除用户数据库。
-
-1.0.4 支持删除单部观看历史或清空列表，并清除对应本机续播位置，收藏保留；改进播放控制栏显示、安装环境提示与本机服务端口选择。部分播放与跳转问题仍在排查。
-
-v1.0.3 新增热播榜按需加载、播放服务未就绪时的明确提示，以及播放停滞后的手动重试入口；播放停滞原因仍在排查，重试不保证解决所有问题。
-
-| 问题 | 已知状态与处理 |
-| --- | --- |
-| 默认播放清晰度 | 1.0.2 优先选择可识别的较高分辨率片源，避免仅按文件大小选择；实际清晰度取决于内容提供的片源，未新增手动画质切换。 |
-| [切换下一集后倍速失效 #3](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/3) | 1.0.1 已修复切换剧集后实际倍速可能恢复为 1 倍的问题。若更新后仍有问题，请补充系统、版本和步骤。 |
-| [跨设备同步观看记录 #4](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/4) | 1.0.2 的观看记录和收藏仅保存在当前电脑，尚不支持两台电脑或电脑与手机之间同步。已向提出者询问具体使用场景，暂无上线时间。 |
-| [弹幕功能建议 #2](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/2) | 已记录需求，暂未承诺支持或上线时间。 |
-| [进度条显隐与外部播放器 #1](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/1) | 原 Issue 已关闭；关闭记录没有关联修复提交，不能据此认定所有现象已经解决。相同问题可新建报告并附复现步骤。 |
-
-## 使用反馈
-
-- 遇到故障：[提交问题](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=bug-report.yml)。请说明系统、软件版本、操作步骤、预期和实际结果。
-- 有功能想法：[提出建议](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=feature-request.yml)。先描述使用场景，方便判断改进方向。
-- 不使用 GitHub 也可发邮件：[WaligoraAmodio288@gmail.com](mailto:WaligoraAmodio288@gmail.com)。如果愿意，也请说明在哪里看到本软件、是否成功播放或再次使用。
-
-来源可以不填。请不要公开账号凭证、令牌、私人观看记录，截图时遮住无关个人信息。
-
-## 下载与安装说明
-
-当前版本尚未配置 Windows 发布者代码签名，系统可能显示未知发布者或 SmartScreen 提示。请核对下载来源与文件，不要关闭系统防护；某些系统策略可能限制安装。
-
-安装器大小：`113873296` 字节。SHA-256：
-
-```text
-e0ce83c3a5373ea861787ab0f5a4be99c52aff7a8aefa50a350ed5b5b75f06be
-```
-
-摘要用于核对文件一致性，不能代替发布者身份认证。应用内更新使用固定公钥验证更新包签名；更新签名与 Windows 发布者代码签名不同。软件启动后可以检查版本，也可在设置中手动检查，仅在用户点击更新后下载安装。
-
-[当前正式版说明与附件](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/latest) · [全部版本](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases)
-
-## 关于本仓库
-
-这是**公开发行与反馈仓库**，不包含私有应用源码或签名私钥，不代表应用源码已开源。Windows 版本保留安装器、更新签名、`latest.json`、摘要文件及本版本所需第三方对应源码附件；第三方许可、来源和声明也保留在安装目录 `backend/licenses`。
-
-由渠道有数独立维护。相关品牌与内容归各自权利方所有，内容和播放可用性受来源及网络情况影响。
-
-请核对原发行仓库账号为 `waligoraamodio288-rgb/hongguo-desktop-releases`。欢迎转载介绍并保留渠道有数署名与原版链接；第三方介绍或镜像请标明身份，避免读者误认开发和维护方。软件名称、截图或版权文字本身不能证明镜像文件未被修改，请对照原发行页同版本摘要。
+# 红果短剧｜Windows 桌面版与 Android TV 版
+
+在 Windows 电脑上找剧、接着上次看。支持搜索、收藏、本机观看进度、选集、倍速和自动连播。
+
+**由渠道有数独立维护 · 免费使用 · 当前公开版本 1.0.13**
+
+**[下载 Windows 安装程序](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/v1.0.13/hongguo-1.0.13-windows-x86_64-setup.exe)**　｜　[三步安装](#三步开始使用)　｜　[下载与安装说明](#下载与安装说明)　｜　[全部版本](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases)
+
+Windows 10 / 11 **x64（64 位）** · 安装包 **108.6 MiB**。普通使用只需下载 `.exe`，不需要下载源码 ZIP、`.sig` 或 `latest.json`。
+
+## 电视、盒子、投影与平板
+
+**0.5.3 包含：顶部题材与 AI 剧、遥控长按临时倍速、在线更新提醒。** 旧版需手动覆盖安装一次，之后可提醒后续 TV 新版；播放时暂缓提醒。
+
+[查看电视版实机图文、安装步骤与常见问题](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/blob/main/TV.md)
+
+**[下载 Android TV 测试版 0.5.3](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/tv-v0.5.3)** · APK **4.08 MB** · **Android 5.0+ / ARM64 系统**。32 位 Android 不适用；实际旧电视兼容性待测试。
+
+由渠道有数独立维护，独立播放无需电脑。支持暗色界面、遥控导航、搜索收藏、续播和快速“换一部”；充分观看优先同题材，第一集主动换剧尝试其他题材，并优先近期候选。设置可关闭或重置本机偏好。电脑与电视分别安装，历史暂不互通。
+
+应用内“设置 → 关于与帮助”提供原版入口、反馈和安装签名核验。APK 摘要及证书摘要随电视版发行说明公布，欢迎转载介绍并保留署名与原链接。小米 Android 13 平板已验收；真实电视、旧固件及实体遥控仍待测试。
+
+**[直接下载电视版 APK](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.3/HongguoTV-0.5.3-arm64.apk)**　｜　[电视安装说明](https://channel-ai-practice-wj.waligoraamodio288.chatgpt.site/help/install/#android-tv)　｜　[反馈电视版使用情况](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=android-tv.yml)
+
+反馈表可填写安装成功或失败、设备型号、系统版本和遥控/播放情况；不确定的项目可以选择“未测试”。以下安装与升级说明适用于 Windows 桌面版。
+
+## 软件界面
+
+![红果桌面版 1.0.2 的发现页，含分类、排行榜、收藏和历史入口](assets/home-v1.0.2.png)
+
+*1.0.2 正式安装包在隔离 Windows 环境中实拍的首页；图中剧目封面来自内容服务，具体内容和播放可用性以实际环境为准。*
+
+第三方收录：[不死鸟 2026 年 9 月 23 日每日分享](https://iui.su/213/)。该条目现链接到本项目的发行列表，可在列表中查看当前正式版。
+
+## 三步开始使用
+
+收藏或分享[固定最新版入口](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/latest)，可减少旧文章停留在过期版本的问题。旧版用户可查看[升级与安装帮助](https://channel-ai-practice-wj.waligoraamodio288.chatgpt.site/help/install/#upgrade)；已是同版且正常使用，无需重复下载。
+
+1. 通过上方链接下载 `hongguo-1.0.13-windows-x86_64-setup.exe`。
+2. 按安装程序完成安装。已有可用 WebView2 时会复用，缺失时安装程序需联网补齐。如果进度条接近终点但仍显示执行 `guoban-webview2-setup.exe`，安装程序正在等待运行环境补装结束，请先不要关闭窗口或重复运行安装包。若在线补装失败、启动提示缺少 WebView2，或已知网络不稳定，可到[微软官方 WebView2 Runtime 下载页](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)选择 **Evergreen Standalone Installer（x64）** 安装，再重试红果安装或启动。若安装进度长时间没有变化，请记录界面和发生时间后反馈。
+3. 打开应用，浏览分类或搜索剧名，进入详情后播放。观看进度保存在桌面端，不代表同步手机红果 App 账号和历史。
+
+如果详情页提示“桌面内容服务尚未就绪”，播放按钮此时不可点击。先等待约 1 分钟，再到“设置”→“播放服务”点“检查连接”；这个按钮只重新检测本机服务状态，不会重启服务。仍显示“未连接”时，在“设置”点“退出程序”，重新打开应用，等待约 1 分钟后再检查一次。点窗口右上角的 × 不会完整退出程序。若仍未连接，请在[播放问题 #5](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/5)补充 Windows 和应用版本、两次检查结果及提示原文；若曾对比不同网络，请注明是否同一台电脑。若已进入播放器却没有画面，再说明加载、黑屏或报错情况。没有 GitHub 账号可发邮件至[项目邮箱](mailto:WaligoraAmodio288@gmail.com)。无需提供账号、IP 或完整日志。目前原因尚未确认。
+
+老板键默认 Ctrl+Shift+B，可在设置里调整。隐藏窗口时自动暂停播放，恢复后从原位置继续并保留倍速；原本手动暂停的视频仍保持暂停。
+
+## 怎么找到其他季
+
+播放时，在右侧选集区点“查找其他季”，滚动列表并核对完整标题、季数和版本，再点“选择此季”。不带季数后缀的同名条目可能是起始部分，仍需核对内容。等待切换时可点“收起其他季”取消；原视频暂停后可手动继续。
+
+1.0.11 及以前没有此手动入口，可回到片单搜索完整主体剧名。例如“聚宝仙盆之杂灵根才是真BOSS”，不要漏掉“仙”字。候选来自标题匹配，可能不完整，也不保证每个条目始终可播放。
+
+## 播放中断时
+
+若播放器提示“播放中断，请重试当前集”，先点“重试”一次，再换另一部剧对照；随后到“设置”→“播放服务”点“检查连接”。[提交播放问题](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=bug-report.yml)时请写明是否已安装并打开应用、点击播放后立即还是播了一段时间才中断、连接状态，以及重试和换剧的结果。无需提供账号、令牌或完整日志。这个提示可能对应多种失败，目前不能仅凭提示判断原因。
+
+## 当前已知反馈
+
+1.0.13 修复视频加载失败，新增「设置 → 外观 → 黑暗模式」，切换立即生效并在重新打开后保留。更新安装后自动刷新红果桌面快捷方式，将旧版本入口迁移到当前安装版本。设置页移除后台运行提示条，仍可从托盘退出。
+
+
+1.0.12 新增播放器“查找其他季”：打开候选列表、核对完整标题后手动选择，从该条目第 1 集开始；查找时保留播放，切换失败保留原媒体与已保存进度。更新下载显示已传输量和独立校验阶段；手动诊断摘要增加当前窗口的有限播放失败类别及数字状态码。选季是标题匹配，结果可能不完整；下载提示变化不代表提速。
+
+1.0.11 改善暂停后的下一集准备、小窗更新提示与首页空片单/请求失败说明；设置增加使用帮助入口和手动生成/预览/复制本次运行诊断摘要。摘要不读旧日志或观看记录、不自动发送；可先查看再自行决定是否附到反馈中。服务未连接、播放中断等问题仍需按具体环境排查。
+
+1.0.10 增加老板键隐藏暂停/恢复续播和3倍速；改善搜索与更新失败提示。更新下载在服务器支持且文件标识/范围核验通过时，尝试继续本次下载；关闭软件后不保留本次下载进度，不保证所有网络提速。安装包补齐作者署名和原发行入口，仍未配置 Windows 发布者代码签名。
+
+1.0.9 增加选集分组与指定集数定位，服务检查进行中显示“正在检查”，改进整集进度、本机续看、缓冲与缓存回收；连播保留控制条闲置状态。剧集列表失败显示分类和HTTP状态码；内置签名服务使用系统分配的本机回环端口并核对所属进程，减少固定端口占用造成的启动失败；签名子进程退出时所属服务停止，再次检查连接可看到退出提示。本机诊断有大小上限且不自动上传。长片中断、服务未连接和特定环境的退出反馈仍在排查，不保证本次全部解决。旧版缓存可能在卸载后保留，请勿自行删除用户数据库。
+
+1.0.4 支持删除单部观看历史或清空列表，并清除对应本机续播位置，收藏保留；改进播放控制栏显示、安装环境提示与本机服务端口选择。部分播放与跳转问题仍在排查。
+
+v1.0.3 新增热播榜按需加载、播放服务未就绪时的明确提示，以及播放停滞后的手动重试入口；播放停滞原因仍在排查，重试不保证解决所有问题。
+
+| 问题 | 已知状态与处理 |
+| --- | --- |
+| 默认播放清晰度 | 1.0.2 优先选择可识别的较高分辨率片源，避免仅按文件大小选择；实际清晰度取决于内容提供的片源，未新增手动画质切换。 |
+| [切换下一集后倍速失效 #3](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/3) | 1.0.1 已修复切换剧集后实际倍速可能恢复为 1 倍的问题。若更新后仍有问题，请补充系统、版本和步骤。 |
+| [跨设备同步观看记录 #4](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/4) | 1.0.2 的观看记录和收藏仅保存在当前电脑，尚不支持两台电脑或电脑与手机之间同步。已向提出者询问具体使用场景，暂无上线时间。 |
+| [弹幕功能建议 #2](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/2) | 已记录需求，暂未承诺支持或上线时间。 |
+| [进度条显隐与外部播放器 #1](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/1) | 原 Issue 已关闭；关闭记录没有关联修复提交，不能据此认定所有现象已经解决。相同问题可新建报告并附复现步骤。 |
+
+## 使用反馈
+
+- 遇到故障：[提交问题](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=bug-report.yml)。请说明系统、软件版本、操作步骤、预期和实际结果。
+- 有功能想法：[提出建议](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=feature-request.yml)。先描述使用场景，方便判断改进方向。
+- 不使用 GitHub 也可发邮件：[WaligoraAmodio288@gmail.com](mailto:WaligoraAmodio288@gmail.com)。如果愿意，也请说明在哪里看到本软件、是否成功播放或再次使用。
+
+来源可以不填。请不要公开账号凭证、令牌、私人观看记录，截图时遮住无关个人信息。
+
+## 下载与安装说明
+
+当前版本尚未配置 Windows 发布者代码签名，系统可能显示未知发布者或 SmartScreen 提示。请核对下载来源与文件，不要关闭系统防护；某些系统策略可能限制安装。
+
+安装器大小：`113873296` 字节。SHA-256：
+
+```text
+e0ce83c3a5373ea861787ab0f5a4be99c52aff7a8aefa50a350ed5b5b75f06be
+```
+
+摘要用于核对文件一致性，不能代替发布者身份认证。应用内更新使用固定公钥验证更新包签名；更新签名与 Windows 发布者代码签名不同。软件启动后可以检查版本，也可在设置中手动检查，仅在用户点击更新后下载安装。
+
+[当前正式版说明与附件](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/latest) · [全部版本](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases)
+
+## 关于本仓库
+
+这是**公开发行与反馈仓库**，不包含私有应用源码或签名私钥，不代表应用源码已开源。Windows 版本保留安装器、更新签名、`latest.json`、摘要文件及本版本所需第三方对应源码附件；第三方许可、来源和声明也保留在安装目录 `backend/licenses`。
+
+由渠道有数独立维护。相关品牌与内容归各自权利方所有，内容和播放可用性受来源及网络情况影响。
+
+请核对原发行仓库账号为 `waligoraamodio288-rgb/hongguo-desktop-releases`。欢迎转载介绍并保留渠道有数署名与原版链接；第三方介绍或镜像请标明身份，避免读者误认开发和维护方。软件名称、截图或版权文字本身不能证明镜像文件未被修改，请对照原发行页同版本摘要。
