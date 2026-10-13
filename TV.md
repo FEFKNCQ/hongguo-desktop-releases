@@ -1,14 +1,16 @@
 # 红果电视端：用遥控器看短剧，不喜欢就换一部
 
-由 **渠道有数** 独立维护 · 免费使用 · **0.5.3 测试版**
+由 **渠道有数** 独立维护 · 免费使用 · **0.5.4 测试版**
 
-**[下载 APK · 4.08 MB](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.3/HongguoTV-0.5.3-arm64.apk)**　｜　[发行说明与原版校验](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/tv-v0.5.3)　｜　[反馈设备体验](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=android-tv.yml)
+**[下载 APK · 4.08 MB](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.4/HongguoTV-0.5.4-arm64.apk)**　｜　[发行说明与原版校验](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/tv-v0.5.4)　｜　[反馈设备体验](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=android-tv.yml)
 
 适用于 **Android 5.0+、ARM64 系统**的电视、盒子、投影和平板。仅 CPU 为 64 位而系统为 32 位的设备暂不支持；真实电视、旧固件和实体遥控仍待测试。
 
-## 0.5.3 遥控焦点修复
+## 0.5.4 播放修复
 
-题材按上直接回到当前真人剧、漫剧或 AI 剧类型；类型栏左右按顺序切换，按下返回原题材。已在小米 Android 13 平板完成57项分类、遥控与 AI 首播检查，以及正式包9步方向键路径验证；真实老电视与实体遥控仍待反馈。不增加后台任务或图片开销。
+更新单集播放资源接口，修复本次复现的“无法准备播放”。小米 Android 13 平板已验证《天渊》续播、方向键切到下一集，以及 AI 剧首集；保留低内存轨道策略和单集缓存，没有新增运行时。
+
+**已知问题（2026-10-13）：真人剧首页目录接口返回错误码 6000，片单暂不可用；本版修复播放资源获取，不代表目录问题已解决。AI 分类和已有历史入口已验证可播放。**
 
 ## 看剧时少按几次键
 
@@ -28,7 +30,7 @@
 
 *0.5.2 更新页实拍于发布前，截图中的公开0.4.1是当时状态。当前版本以本文下载入口和发行页为准。*
 
-## 本次更新
+## 保留的功能
 
 - 顶部真人剧、漫剧、AI 剧与题材分类，片单直接显示；缓存分类立即复用。
 
@@ -38,11 +40,11 @@
 
 - 设置 → 关于与帮助 → 检查更新；下载可取消，原版签名与摘要校验后交系统确认。
 
-**0.5.2可在应用内检查并下载0.5.3；0.5.1及以前需手动覆盖安装一次，之后可收到新版提醒。**
+**0.5.2/0.5.3可在应用内检查并下载0.5.4；0.5.1及以前需手动覆盖安装一次，之后可收到新版提醒。**
 
 ## 三步安装
 
-1. 下载上面的 `HongguoTV-0.5.3-arm64.apk`。确认是 Android 系统且支持 ARM64；不确定时可查询设备系统信息或在反馈表中写明型号。
+1. 下载上面的 `HongguoTV-0.5.4-arm64.apk`。确认是 Android 系统且支持 ARM64；不确定时可查询设备系统信息或在反馈表中写明型号。
 
 2. 用 U 盘或设备支持的文件传输方式把 APK 放到设备上，在文件管理器中点开安装。按设备正常提示授权本次安装；若设备策略禁止安装，请记录提示原文，不需要关闭整机安全防护。
 
@@ -74,5 +76,5 @@
 
 无论能否正常使用，都可以填[电视版反馈表](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=android-tv.yml)：设备型号、Android 版本、能否安装、实体遥控、首播音画及续播。没有测试的项目可以跳过；无需提交账号、密码或个人观看历史。
 
-分享时请保留 **渠道有数**署名与[原发行链接](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/tv-v0.5.3)。应用“设置 → 关于与帮助”可以核对来源。想在电脑上看，可下载 [Windows 版](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/latest)。
+分享时请保留 **渠道有数**署名与[原发行链接](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/tv-v0.5.4)。应用“设置 → 关于与帮助”可以核对来源。想在电脑上看，可下载 [Windows 版](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/latest)。
 
