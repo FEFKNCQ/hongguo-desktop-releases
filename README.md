@@ -4,6 +4,10 @@
 
 **由渠道有数独立维护 · 免费使用 · 当前公开版本 1.0.13**
 
+**[渠道有数网站](https://shiyuemenghui.top/?utm_source=github&utm_medium=readme&utm_campaign=custom_domain)** · [安装帮助](https://shiyuemenghui.top/help/install/?utm_source=github&utm_medium=readme&utm_campaign=custom_domain)
+
+网站暂有部分网络无法访问；遇到打不开时，可直接使用下方 GitHub 安装包和本页说明。
+
 **[下载 Windows 安装程序](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/v1.0.13/hongguo-1.0.13-windows-x86_64-setup.exe)**　｜　[三步安装](#三步开始使用)　｜　[下载与安装说明](#下载与安装说明)　｜　[全部版本](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases)
 
 Windows 10 / 11 **x64（64 位）** · 安装包 **108.6 MiB**。普通使用只需下载 `.exe`，不需要下载源码 ZIP、`.sig` 或 `latest.json`。
@@ -22,7 +26,7 @@ Windows 10 / 11 **x64（64 位）** · 安装包 **108.6 MiB**。普通使用只
 
 应用内“设置 → 关于与帮助”提供原版入口、反馈和安装签名核验。APK 摘要及证书摘要随电视版发行说明公布，欢迎转载介绍并保留署名与原链接。小米 Android 13 平板已验收；真实电视、旧固件及实体遥控仍待测试。
 
-**[直接下载电视版 APK](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.5/HongguoTV-0.5.5-arm64.apk)**　｜　[电视安装说明](https://channel-ai-practice-wj.waligoraamodio288.chatgpt.site/help/install/#android-tv)　｜　[反馈电视版使用情况](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=android-tv.yml)
+**[直接下载电视版 APK](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.5/HongguoTV-0.5.5-arm64.apk)**　｜　[电视安装说明](https://shiyuemenghui.top/help/install/#android-tv)　｜　[反馈电视版使用情况](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=android-tv.yml)
 
 反馈表可填写安装成功或失败、设备型号、系统版本和遥控/播放情况；不确定的项目可以选择“未测试”。以下安装与升级说明适用于 Windows 桌面版。
 
@@ -36,7 +40,7 @@ Windows 10 / 11 **x64（64 位）** · 安装包 **108.6 MiB**。普通使用只
 
 ## 三步开始使用
 
-收藏或分享[固定最新版入口](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/latest)，可减少旧文章停留在过期版本的问题。旧版用户可查看[升级与安装帮助](https://channel-ai-practice-wj.waligoraamodio288.chatgpt.site/help/install/#upgrade)；已是同版且正常使用，无需重复下载。
+收藏或分享[固定最新版入口](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/latest)，可减少旧文章停留在过期版本的问题。旧版用户可查看[升级与安装帮助](https://shiyuemenghui.top/help/install/#upgrade)；已是同版且正常使用，无需重复下载。
 
 1. 通过上方链接下载 `hongguo-1.0.13-windows-x86_64-setup.exe`。
 
