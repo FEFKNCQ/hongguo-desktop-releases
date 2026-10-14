@@ -2,6 +2,10 @@
 
 由 **渠道有数** 独立维护 · 免费使用 · **0.5.5 测试版**
 
+**[渠道有数网站](https://shiyuemenghui.top/?utm_source=github&utm_medium=readme&utm_campaign=custom_domain)** · [安装帮助](https://shiyuemenghui.top/help/install/?utm_source=github&utm_medium=readme&utm_campaign=custom_domain)
+
+网站暂有部分网络无法访问；遇到打不开时，可直接使用下方 GitHub 安装包和本页说明。
+
 **[下载 APK · 4.08 MB](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.5/HongguoTV-0.5.5-arm64.apk)**　｜　[发行说明与原版校验](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/tv-v0.5.5)　｜　[反馈设备体验](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=android-tv.yml)
 
 适用于 **Android 5.0+、ARM64 系统**的电视、盒子、投影和平板。仅 CPU 为 64 位而系统为 32 位的设备暂不支持；真实电视、旧固件和实体遥控仍待测试。
@@ -50,7 +54,7 @@
 
 3. 打开应用，用方向键选择剧集并确认播放。在播放栏选择“换一部”“选集”或“设置”；已有同签名版本可覆盖升级，保留本机记录。
 
-[更详细的安装与帮助](https://channel-ai-practice-wj.waligoraamodio288.chatgpt.site/help/install/#android-tv)
+[更详细的安装与帮助](https://shiyuemenghui.top/help/install/#android-tv)
 
 ## 安装前常见问题
 
