@@ -14,21 +14,21 @@ Windows 10 / 11 **x64（64 位）** · 安装包 **108.6 MiB**。普通使用只
 
 ## 电视、盒子、投影与平板
 
-**0.5.5 恢复真人首页、题材分类和快速换剧片单，并沿用0.5.4的播放资源修复。** 保留遥控焦点、临时倍速和在线更新提醒；0.5.2～0.5.4可在应用内检查更新。
+**0.5.6 新增32位 ARMv7 版本，同时提供64位 ARM64 版本。** 最低Android5.0，按系统架构选择；64位芯片不一定配有64位系统。
 
-**0.5.5 已恢复真人剧首页与题材片单，漫剧和 AI 剧分类保持独立。关键词搜索仍可能受原服务影响；搜索不可用时请从首页或题材分类选剧。ARM32 系统暂不支持。**
+**[下载32位 ARMv7 · 1.24 MB](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.6/HongguoTV-0.5.6-arm32.apk)**　｜　**[下载64位 ARM64 · 4.08 MB](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.6/HongguoTV-0.5.6-arm64.apk)**　｜　[发行说明与校验](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/tv-v0.5.6)
 
-[查看电视版实机图文、安装步骤与常见问题](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/blob/main/TV.md)
+独立播放无需电脑，真人剧、漫剧、AI剧分类独立，支持暗色界面、遥控导航、收藏续播、选集及快速“换一部”。关键词搜索仍可能受原服务影响；搜索不可用时请从首页或题材分类选剧。
 
-**[下载 Android TV 测试版 0.5.5](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/tv-v0.5.5)** · APK **4.08 MB** · **Android 5.0+ / ARM64 系统**。32 位 Android 不适用；实际旧电视兼容性待测试。
+小米Android13平板的实际32位进程已验证三类可见播放、遥控暂停/恢复和长按倍速；64位回归通过。**真实旧电视、旧固件和实体遥控仍待逐机测试，不保证所有设备兼容。** 长按临时倍速需要Android6.0+。
 
-由渠道有数独立维护，独立播放无需电脑。支持暗色界面、遥控导航、搜索收藏、续播和快速“换一部”；充分观看优先同题材，第一集主动换剧尝试其他题材，并优先近期候选。设置可关闭或重置本机偏好。电脑与电视分别安装，历史暂不互通。
+已有0.5.2～0.5.5的64位版可在应用内检查更新；32位首版手动安装，之后按同架构更新。同签名覆盖安装保留记录，无需卸载。电脑与电视历史暂不互通。
 
-应用内“设置 → 关于与帮助”提供原版入口、反馈和安装签名核验。APK 摘要及证书摘要随电视版发行说明公布，欢迎转载介绍并保留署名与原链接。小米 Android 13 平板已验收；真实电视、旧固件及实体遥控仍待测试。
+由渠道有数独立维护，应用内“设置 → 关于与帮助”提供原版入口、反馈和安装签名核验。欢迎转载介绍并保留署名与原链接。
 
-**[直接下载电视版 APK](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.5/HongguoTV-0.5.5-arm64.apk)**　｜　[电视安装说明](https://shiyuemenghui.top/help/install/#android-tv)　｜　[反馈电视版使用情况](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=android-tv.yml)
+[电视版实机图文与安装说明](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/blob/main/TV.md)　｜　[反馈设备体验](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=android-tv.yml)
 
-反馈表可填写安装成功或失败、设备型号、系统版本和遥控/播放情况；不确定的项目可以选择“未测试”。以下安装与升级说明适用于 Windows 桌面版。
+以下安装与升级说明适用于Windows桌面版。
 
 ## 软件界面
 
@@ -66,7 +66,7 @@ Windows 10 / 11 **x64（64 位）** · 安装包 **108.6 MiB**。普通使用只
 
 Windows 用户可先在设置里核对版本。1.0.13 已修复一类视频加载失败，并提供黑暗模式；请通过[固定最新版入口](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/latest)获取当前安装包。这个修复不代表所有网络、设备或剧集都能正常播放。更新后仍失败，请按上面的“播放中断时”步骤反馈版本、屏幕提示和换剧结果。
 
-电视、盒子和平板请使用上方 Android TV 入口；真人剧、漫剧和 AI剧（AI 剧）分类独立，ARM32 系统暂不支持。Windows 安装程序不能安装到电视。
+电视、盒子和平板请使用上方 Android TV 入口；真人剧、漫剧和 AI剧（AI 剧）分类独立，0.5.6提供ARM32与ARM64两种安装包。Windows 安装程序不能安装到电视。
 
 ## 当前已知反馈
 
