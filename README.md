@@ -15,26 +15,26 @@ Windows 10 / 11 **x64（64 位）** · 安装包 **108.6 MiB**。普通使用只
 ## Windows 桌面版：先看演示，再选安装包
 
 - 不用安卓模拟器，在电脑上浏览分类、搜索剧名、收藏并接着本机进度看。
+
 - 老板键隐藏时暂停、恢复时续播，支持倍速、选集和自动连播。
+
 - 当前 1.0.13 增加黑暗模式，并修复一类视频加载失败；具体播放可用性仍受内容服务和网络影响。
 
 [观看 42 秒实录：老板键与 3 倍速](https://www.bilibili.com/video/BV1SbH16iECg/)（录制版本 1.0.10；黑暗模式见当前 1.0.13 的设置 → 外观）。电脑与电视各自保存进度，暂不跨设备同步。
 
 ## 电视、盒子、投影与平板
 
-**0.5.6 新增32位 ARMv7 版本，同时提供64位 ARM64 版本。** 最低Android5.0，按系统架构选择；64位芯片不一定配有64位系统。
+**0.5.7 测试版 · ARM32 / ARM64 · Android5.0+**
 
-**[下载32位 ARMv7 · 1.24 MB](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.6/HongguoTV-0.5.6-arm32.apk)**　｜　**[下载64位 ARM64 · 4.08 MB](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.6/HongguoTV-0.5.6-arm64.apk)**　｜　[发行说明与校验](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/tv-v0.5.6)
+**[下载32位 ARMv7 · 1.26 MB](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.7/HongguoTV-0.5.7-arm32.apk)**　｜　**[下载64位 ARM64 · 4.09 MB](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.7/HongguoTV-0.5.7-arm64.apk)**　｜　[发行说明与校验](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/tv-v0.5.7)
 
-独立播放无需电脑，真人剧、漫剧、AI剧分类独立，支持暗色界面、遥控导航、收藏续播、选集及快速“换一部”。关键词搜索仍可能受原服务影响；搜索不可用时请从首页或题材分类选剧。
+0.5.7 修复仅首张封面显示；当原播放信息接口返回空响应时，使用官方页面明确公开的360p备用片源。支持清晰度上限选择、当前与下一集有界缓存、单播放器切集；备用片源实际仍为360p，不保证720p/1080p可用。
 
-小米Android13平板的实际32位进程已验证三类可见播放、遥控暂停/恢复和长按倍速；64位回归通过。**真实旧电视、旧固件和实体遥控仍待逐机测试，不保证所有设备兼容。** 长按临时倍速需要Android6.0+。
+三类首页、实际32位可见播放与遥控操作已在Android13小米平板核验，64位实际播放回归通过；旧电视固件、实体遥控仍需逐机测试。独立播放无需电脑，支持暗色界面、收藏续播、选集和“换一部”。关键词搜索仍可能受上游影响。
 
-已有0.5.2～0.5.5的64位版可在应用内检查更新；32位首版手动安装，之后按同架构更新。同签名覆盖安装保留记录，无需卸载。电脑与电视历史暂不互通。
+已有同签名版本可同架构覆盖升级，保留本机记录；设置中支持检查更新。系统支持armeabi-v7a选32位，arm64-v8a可选64位，芯片宣传位数不能代替系统ABI。
 
-由渠道有数独立维护，应用内“设置 → 关于与帮助”提供原版入口、反馈和安装签名核验。欢迎转载介绍并保留署名与原链接。
-
-[电视版实机图文与安装说明](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/blob/main/TV.md)　｜　[反馈设备体验](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=android-tv.yml)
+[电视版安装与实测范围](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/blob/main/TV.md) · [反馈设备体验](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=android-tv.yml)
 
 以下安装与升级说明适用于Windows桌面版。
 
@@ -139,3 +139,4 @@ e0ce83c3a5373ea861787ab0f5a4be99c52aff7a8aefa50a350ed5b5b75f06be
 由渠道有数独立维护。相关品牌与内容归各自权利方所有，内容和播放可用性受来源及网络情况影响。
 
 请核对原发行仓库账号为 `waligoraamodio288-rgb/hongguo-desktop-releases`。欢迎转载介绍并保留渠道有数署名与原版链接；第三方介绍或镜像请标明身份，避免读者误认开发和维护方。软件名称、截图或版权文字本身不能证明镜像文件未被修改，请对照原发行页同版本摘要。
+
