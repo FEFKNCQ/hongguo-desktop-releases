@@ -2,13 +2,15 @@
 
 在 Windows 电脑上找剧、接着上次看。支持搜索、收藏、本机观看进度、选集、倍速和自动连播。
 
-**由渠道有数独立维护 · 免费使用 · 当前公开版本 1.0.13**
+**由渠道有数独立维护 · 免费使用 · 当前公开版本 1.0.14**
+
+> **重大更新提醒：1.0.14 恢复桌面版 1080p 高清播放。** 近期出现“媒体准备失败”或无法播放的旧版用户，请升级到 1.0.14。本次未加入 360p 降级方案；已实测四部剧的高清画面与声音。
 
 **[渠道有数网站](https://shiyuemenghui.top/?utm_source=github&utm_medium=readme&utm_campaign=custom_domain)** · [安装帮助](https://shiyuemenghui.top/help/install/?utm_source=github&utm_medium=readme&utm_campaign=custom_domain)
 
 网站暂有部分网络无法访问；遇到打不开时，可直接使用下方 GitHub 安装包和本页说明。
 
-**[下载 Windows 安装程序](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/v1.0.13/hongguo-1.0.13-windows-x86_64-setup.exe)**　｜　[三步安装](#三步开始使用)　｜　[下载与安装说明](#下载与安装说明)　｜　[全部版本](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases)
+**[下载 Windows 安装程序](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/v1.0.14/hongguo-1.0.14-windows-x86_64-setup.exe)**　｜　[三步安装](#三步开始使用)　｜　[下载与安装说明](#下载与安装说明)　｜　[全部版本](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases)
 
 Windows 10 / 11 **x64（64 位）** · 安装包 **108.6 MiB**。普通使用只需下载 `.exe`，不需要下载源码 ZIP、`.sig` 或 `latest.json`。
 
@@ -18,9 +20,9 @@ Windows 10 / 11 **x64（64 位）** · 安装包 **108.6 MiB**。普通使用只
 
 - 老板键隐藏时暂停、恢复时续播，支持倍速、选集和自动连播。
 
-- 当前 1.0.13 增加黑暗模式，并修复一类视频加载失败；具体播放可用性仍受内容服务和网络影响。
+- 当前 1.0.14 修复近期高清取流失败，四部剧已实测 1080p 画面和声音；保留黑暗模式，具体播放可用性仍受内容服务和网络影响。
 
-[观看 42 秒实录：老板键与 3 倍速](https://www.bilibili.com/video/BV1SbH16iECg/)（录制版本 1.0.10；黑暗模式见当前 1.0.13 的设置 → 外观）。电脑与电视各自保存进度，暂不跨设备同步。
+[观看 42 秒实录：老板键与 3 倍速](https://www.bilibili.com/video/BV1SbH16iECg/)（录制版本 1.0.10；黑暗模式见当前版本的设置 → 外观）。电脑与电视各自保存进度，暂不跨设备同步。
 
 ## 电视、盒子、投影与平板
 
@@ -50,13 +52,13 @@ Windows 10 / 11 **x64（64 位）** · 安装包 **108.6 MiB**。普通使用只
 
 收藏或分享[固定最新版入口](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/latest)，可减少旧文章停留在过期版本的问题。旧版用户可查看[升级与安装帮助](https://shiyuemenghui.top/help/install/#upgrade)；已是同版且正常使用，无需重复下载。
 
-1. 通过上方链接下载 `hongguo-1.0.13-windows-x86_64-setup.exe`。
+1. 通过上方链接下载 `hongguo-1.0.14-windows-x86_64-setup.exe`。
 
 2. 按安装程序完成安装。已有可用 WebView2 时会复用，缺失时安装程序需联网补齐。如果进度条接近终点但仍显示执行 `guoban-webview2-setup.exe`，安装程序正在等待运行环境补装结束，请先不要关闭窗口或重复运行安装包。若在线补装失败、启动提示缺少 WebView2，或已知网络不稳定，可到[微软官方 WebView2 Runtime 下载页](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)选择 **Evergreen Standalone Installer（x64）** 安装，再重试红果安装或启动。若安装进度长时间没有变化，请记录界面和发生时间后反馈。
 
 3. 打开应用，浏览分类或搜索剧名，进入详情后播放。观看进度保存在桌面端，不代表同步手机红果 App 账号和历史。
 
-如果详情页提示“桌面内容服务尚未就绪”，播放按钮此时不可点击。先等待约 1 分钟，再到“设置”→“播放服务”点“检查连接”；这个按钮只重新检测本机服务状态，不会重启服务。仍显示“未连接”时，在“设置”点“退出程序”，重新打开应用，等待约 1 分钟后再检查一次。点窗口右上角的 × 不会完整退出程序。若仍未连接，请在[播放问题 #5](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/5)补充 Windows 和应用版本、两次检查结果及提示原文；若曾对比不同网络，请注明是否同一台电脑。若已进入播放器却没有画面，再说明加载、黑屏或报错情况。没有 GitHub 账号可发邮件至[项目邮箱](mailto:WaligoraAmodio288@gmail.com)。无需提供账号、IP 或完整日志。目前原因尚未确认。
+如果详情页提示“桌面内容服务尚未就绪”，播放按钮此时不可点击。先等待约 1 分钟，再到“设置”→“播放服务”点“检查连接”；这个按钮只重新检测本机服务状态，不会重启服务。仍显示“未连接”时，从 Windows 通知区域右键红果托盘图标并退出，再重新打开应用，等待约 1 分钟后再检查一次。点窗口右上角的 × 不会完整退出程序。若仍未连接，请在[播放问题 #5](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/5)补充 Windows 和应用版本、两次检查结果及提示原文；若曾对比不同网络，请注明是否同一台电脑。若已进入播放器却没有画面，再说明加载、黑屏或报错情况。没有 GitHub 账号可发邮件至[项目邮箱](mailto:WaligoraAmodio288@gmail.com)。无需提供账号、IP 或完整日志。目前原因尚未确认。
 
 老板键默认 Ctrl+Shift+B，可在设置里调整。隐藏窗口时自动暂停播放，恢复后从原位置继续并保留倍速；原本手动暂停的视频仍保持暂停。
 
@@ -72,11 +74,13 @@ Windows 10 / 11 **x64（64 位）** · 安装包 **108.6 MiB**。普通使用只
 
 ## 旧版无法播放，先检查哪个版本？
 
-Windows 用户可先在设置里核对版本。1.0.13 已修复一类视频加载失败，并提供黑暗模式；请通过[固定最新版入口](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/latest)获取当前安装包。这个修复不代表所有网络、设备或剧集都能正常播放。更新后仍失败，请按上面的“播放中断时”步骤反馈版本、屏幕提示和换剧结果。
+Windows 用户可先在设置里核对版本。1.0.14 修复近期上游播放请求变化导致的高清取流失败，保留黑暗模式；请通过[固定最新版入口](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/latest)获取当前安装包。这个修复不代表所有网络、设备或剧集都能正常播放。更新后仍失败，请按上面的“播放中断时”步骤反馈版本、屏幕提示和换剧结果。
 
 电视、盒子和平板请使用上方 Android TV 入口；真人剧、漫剧和 AI剧（AI 剧）分类独立，0.5.6提供ARM32与ARM64两种安装包。Windows 安装程序不能安装到电视。
 
 ## 当前已知反馈
+
+1.0.14 更新播放请求参数和视频信息解析，恢复桌面高清取流，未新增360p降级方案。四部剧实际横屏1920×1080、竖屏1080×1920均有声并持续播放；完整安装包的起播、切集、失败重试、倍速以及1.0.13覆盖升级验收通过。样本验收不代表所有剧集均已遍历验证。
 
 1.0.13 修复视频加载失败，新增「设置 → 外观 → 黑暗模式」，切换立即生效并在重新打开后保留。更新安装后自动刷新红果桌面快捷方式，将旧版本入口迁移到当前安装版本。设置页移除后台运行提示条，仍可从托盘退出。
 
@@ -120,11 +124,11 @@ v1.0.3 新增热播榜按需加载、播放服务未就绪时的明确提示，�
 
 当前版本尚未配置 Windows 发布者代码签名，系统可能显示未知发布者或 SmartScreen 提示。请核对下载来源与文件，不要关闭系统防护；某些系统策略可能限制安装。
 
-安装器大小：`113873296` 字节。SHA-256：
+安装器大小：`113877950` 字节。SHA-256：
 
 ```text
 
-e0ce83c3a5373ea861787ab0f5a4be99c52aff7a8aefa50a350ed5b5b75f06be
+e2484c42e0c4b20e314d57f17b478e422d8608709335fb1ad82bd8dfcc8c21f8
 
 ```
 
