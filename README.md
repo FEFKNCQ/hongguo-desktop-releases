@@ -1,8 +1,8 @@
-# 红果短剧｜Windows 桌面版与 Android TV 版
+# 红果短剧｜Windows、Mac 测试版与 Android TV
 
 在 Windows 电脑上找剧、接着上次看。支持搜索、收藏、本机观看进度、选集、倍速和自动连播。
 
-**由渠道有数独立维护 · 免费使用 · 当前公开版本 1.0.15**
+**由渠道有数独立维护 · 免费使用 · Windows 正式版 1.0.15**
 
 > **更新提醒：1.0.15 修复搜索异常，保留 1080p 高清播放。** 搜索服务临时故障时会显示官网备用结果，并标明结果范围有限。完整安装包已实际搜索三部剧、打开详情并验证1080p有声播放；未加入360p降级。
 
@@ -23,6 +23,20 @@ Windows 10 / 11 **x64（64 位）** · 安装包 **108.6 MiB**。普通使用只
 - 当前 1.0.15 增加搜索临时故障时的官网备用检索，保留 1080p 高清播放和黑暗模式；具体检索及播放可用性仍受内容服务和网络影响。
 
 [观看 42 秒实录：老板键与 3 倍速](https://www.bilibili.com/video/BV1SbH16iECg/)（录制版本 1.0.10；黑暗模式见当前版本的设置 → 外观）。电脑与电视各自保存进度，暂不跨设备同步。
+
+<!-- mac-beta-promotion-start -->
+## Mac 公开测试版：邀请 M 系列用户体验
+
+**Mac 1.0.9 beta.1 · Apple Silicon（M1 及更新芯片）· macOS 14+ · 免费测试**
+
+Mac 上也可以搜索找剧、收藏和接着本机进度看，提供 Command 快捷键、全屏/迷你窗口与设置入口。欢迎自愿体验并反馈，帮助完善 Mac 操作。
+
+**[下载 Mac 测试版 DMG](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/mac-v1.0.9-beta.1)**　｜　**[反馈 Mac 问题](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=macos.yml)**　｜　[参与测试与查看进度](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/359)
+
+下载 `Hongguo_1.0.9-beta.1_aarch64.dmg`，约158 MiB；其余 ZIP 是第三方源码/许可，普通用户无需下载。当前仅提供 M 系列版，Intel 请暂勿下载。应用为 ad-hoc 签名、尚未公证，首次打开可能被系统拦截；遇到提示请反馈，不要关闭系统保护。
+
+本候选已通过云端 M2 上107项收藏、历史、续播、设置等资料保留检查；真实声音、完整媒体及最终同包安装升级仍待更多设备验证。Mac 测试版不替代 Windows 正式版，也不承诺所有剧集和网络均可用。**下方演示和安装步骤为 Windows 版，不能视作 Mac 实测。**
+<!-- mac-beta-promotion-end -->
 
 ## 电视、盒子、投影与平板
 
