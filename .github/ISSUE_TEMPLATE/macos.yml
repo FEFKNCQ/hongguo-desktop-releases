@@ -1,0 +1,60 @@
+name: Mac 测试版问题反馈
+description: 报告 macOS 测试版的安装、播放、窗口或资料保留问题。
+title: "[Mac] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢参与 Mac 测试。请只填写与问题有关的信息；不要上传账号密码、令牌、Cookie、带签名下载链接或个人隐私。
+        客户端入口：设置 → 更新与反馈 → 反馈使用问题。
+  - type: input
+    id: version
+    attributes:
+      label: 应用版本和下载来源
+      placeholder: 例如 Mac 1.0.9 beta.1，GitHub Release
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS 版本
+      placeholder: 例如 macOS 15.7
+    validations:
+      required: true
+  - type: dropdown
+    id: chip
+    attributes:
+      label: Mac 芯片
+      options:
+        - Apple Silicon（M1 / M2 / M3 / M4 / M5 等）
+        - Intel
+        - 不确定
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 问题位置
+      options:
+        - 安装或启动 / 退出
+        - 搜索或内容列表
+        - 播放 / 声音 / 选集 / 倍速
+        - 收藏 / 历史 / 续播 / 重启保留
+        - 窗口 / 全屏 / 迷你窗口 / 老板键
+        - 设置 / 外观 / 快捷键
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 如何复现
+      description: 写出操作步骤、是否每次出现，以及期望与实际结果。播放问题可写剧名和集数，无需提供媒体直链。
+      placeholder: "1. 打开应用\n2. …\n期望：…\n实际：…"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 截图或诊断信息（可选）
+      description: 可以粘贴客户端诊断摘要。请先检查并遮盖个人信息；不必上传完整系统日志。
