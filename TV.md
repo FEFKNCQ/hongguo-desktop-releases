@@ -1,18 +1,20 @@
 # 红果电视端：用遥控器看短剧，不喜欢就换一部
 
-由 **渠道有数** 独立维护 · 免费使用 · **0.5.7 测试版**
+由 **渠道有数** 独立维护 · 免费使用 · **0.5.8 测试版**
 
 **[渠道有数网站](https://shiyuemenghui.top/?utm_source=github&utm_medium=readme&utm_campaign=custom_domain)** · [安装帮助](https://shiyuemenghui.top/help/install/?utm_source=github&utm_medium=readme&utm_campaign=custom_domain)
 
 网站暂有部分网络无法访问；遇到打不开时，可直接使用下方 GitHub 安装包和本页说明。
 
-**[下载32位 ARMv7 · 1.26 MB](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.7/HongguoTV-0.5.7-arm32.apk)**　｜　**[下载64位 ARM64 · 4.09 MB](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.7/HongguoTV-0.5.7-arm64.apk)**　｜　[发行说明与校验](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/tv-v0.5.7)
+**[下载32位 ARMv7 · 1.26 MB](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.8/HongguoTV-0.5.8-arm32.apk)**　｜　**[下载64位 ARM64 · 4.09 MB](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/tv-v0.5.8/HongguoTV-0.5.8-arm64.apk)**　｜　[发行说明与校验](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/tv-v0.5.8)
 
 适用于Android5.0+的电视、盒子、投影和平板。32位系统选择ARMv7，64位系统选择ARM64；以系统支持的ABI为准，不按芯片宣传位数判断。
 
-## 0.5.7 播放与封面修正
+## 0.5.8 后续集数与高清播放修复
 
-0.5.7 修复仅首张封面显示；当原播放信息接口返回空响应时，使用官方页面明确公开的360p备用片源。支持清晰度上限选择、当前与下一集有界缓存、单播放器切集；备用片源实际仍为360p，不保证720p/1080p可用。
+0.5.8 更新主取源，修复公开备用页面只开放前三集时后续集数无法播放的问题。两部剧第4、5集已在小米Android13平板的真实ARM32/ARM64进程播放；实测1280×720和1920×1080，第三集自然续播第四集及手动切第五集通过。样本通过不代表所有剧集或旧电视均适用。
+
+自动模式优先720p以内的可播轨道，仅在缺少兼容低档且设备支持硬解时选择不超过16MiB的1080p；低内存自动模式仍最高480p。手动480p/720p/1080p是上限，某集没有对应兼容轨道时仍可能失败，不自动软解或转码。支持硬解的设备可尝试自动或1080p。
 
 三类可见播放及遥控暂停/恢复在小米Android13平板实际ARM32进程通过，ARM64实际可见播放、切集、暂停后恢复及自然续集回归通过。缓存就绪切集已优化；旧电视、旧固件、实体遥控及本次主观音画仍需逐机验证。首次下载耗时取决于网络，不能保证所有片源或高清可用。
 
@@ -46,11 +48,11 @@
 
 - 设置 → 关于与帮助 → 检查更新；下载可取消，原版签名与摘要校验后交系统确认。
 
-**0.5.2～0.5.6的64位版可在应用内检查并下载0.5.7；0.5.6的32位版可检查同架构更新，0.5.1及以前版本需手动安装。**
+**0.5.2～0.5.7的64位版可在应用内检查并下载0.5.8；0.5.6～0.5.7的32位版可检查同架构更新，0.5.1及以前版本需手动安装。**
 
 ## 三步安装
 
-1. 下载与系统架构匹配的 `HongguoTV-0.5.7-arm32.apk` 或 `HongguoTV-0.5.7-arm64.apk`。32位系统需支持armeabi-v7a，64位系统支持arm64-v8a；不确定时查询系统信息或反馈完整型号。
+1. 下载与系统架构匹配的 `HongguoTV-0.5.8-arm32.apk` 或 `HongguoTV-0.5.8-arm64.apk`。32位系统需支持armeabi-v7a，64位系统支持arm64-v8a；不确定时查询系统信息或反馈完整型号。
 
 2. 用 U 盘或设备支持的文件传输方式把 APK 放到设备上，在文件管理器中点开安装。按设备正常提示授权本次安装；若设备策略禁止安装，请记录提示原文，不需要关闭整机安全防护。
 
@@ -82,4 +84,4 @@
 
 无论能否正常使用，都可以填[电视版反馈表](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/issues/new?template=android-tv.yml)：设备型号、Android 版本、能否安装、实体遥控、首播音画及续播。没有测试的项目可以跳过；无需提交账号、密码或个人观看历史。
 
-分享时请保留 **渠道有数**署名与[原发行链接](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/tv-v0.5.7)。应用“设置 → 关于与帮助”可以核对来源。想在电脑上看，可下载 [Windows 版](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/latest)。
+分享时请保留 **渠道有数**署名与[原发行链接](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/tag/tv-v0.5.8)。应用“设置 → 关于与帮助”可以核对来源。想在电脑上看，可下载 [Windows 版](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/latest)。
