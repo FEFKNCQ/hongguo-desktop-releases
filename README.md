@@ -1,3 +1,10 @@
+> **下载说明**
+> 推荐通过下方夸克网盘直链下载（含完整 release 文件，微信扫码或点链接即可），无需访问 GitHub：
+> **夸克网盘**：https://pan.quark.cn/s/c282e6b8f115
+>
+> 也可在 [本仓库 Releases](https://github.com/FEFKNCQ/hongguo-desktop-releases/releases) 下载。
+
+
 # 红果短剧｜Windows、Mac 测试版与 Android TV
 
 在 Windows 电脑上找剧、接着上次看。支持搜索、收藏、本机观看进度、选集、倍速和自动连播。
