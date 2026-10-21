@@ -1,5 +1,7 @@
 > **下载说明**
-> 推荐通过下方夸克网盘直链下载（含完整 release 文件，微信扫码或点链接即可），无需访问 GitHub：
+> 优先推荐从百度网盘下载（含完整 release 文件，可用提取码获取），无需访问 GitHub：
+> **百度网盘**：https://pan.baidu.com/share/init?surl=M2idkJUVo33ui-JArWvppA&pwd=zaw5
+>
 > **夸克网盘**：https://pan.quark.cn/s/c282e6b8f115
 >
 > 也可在 [本仓库 Releases](https://github.com/FEFKNCQ/hongguo-desktop-releases/releases) 下载。
